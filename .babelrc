@@ -1,0 +1,3 @@
+{
+  "presets": ["@babel/preset-env"] //converte as features do es6 para que todos navegadores entendem.
+}

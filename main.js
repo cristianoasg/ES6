@@ -1,12 +1,13 @@
-function teste(x) {
-  let y = 2;
-  if ( x > 5) {
+const arr = [1, 3, 4, 5, 8, 9];
 
-    let y = 4;
-    console.log(x, y);
-  }
-}
+const newArr = arr.map (function(item, index) {
+  return item + index;
+});
 
+console.log(newArr);
 
+const sum = arr.reduce(function(total, next) {
+ return total + next;
+});
 
-(teste(10));
+console.log(sum);

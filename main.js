@@ -1,8 +1,18 @@
-// Definir valores padroes para parametros das funcoes
+//Desestruturacao 
 
-const soma = ( a=3, b=6 ) => a + b;
+const usuario = {
 
-console.log(soma(1));
-console.log(soma());
+  nome: 'Cristiano',
+  idade: 29,
+  endereco: {
+    cidade: 'Setubal',
+    pais: 'Portugal',
+  }
 
 
+};
+
+const { nome, idade, endereco:{cidade} } = usuario;
+console.log(nome);
+console.log(idade);
+console.log(cidade);

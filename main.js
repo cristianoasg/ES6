@@ -13,6 +13,4 @@ const usuario = {
 };
 
 const { nome, idade, endereco:{cidade} } = usuario;
-console.log(nome);
-console.log(idade);
-console.log(cidade);
+console.log(nome, idade);

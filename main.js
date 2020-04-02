@@ -1,16 +1,14 @@
-//Desestruturacao 
+// rest
 
 const usuario = {
 
   nome: 'Cristiano',
   idade: 29,
-  endereco: {
-    cidade: 'Setubal',
-    pais: 'Portugal',
-  }
+  funcao: 'estudante',
 
 
 };
 
-const { nome, idade, endereco:{cidade} } = usuario;
-console.log(nome, idade);
+const { nome, ...resto } = usuario;
+console.log(nome);
+console.log(resto);

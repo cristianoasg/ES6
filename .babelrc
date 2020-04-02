@@ -1,3 +1,6 @@
 {
-  "presets": ["@babel/preset-env"] //converte as features do es6 para que todos navegadores entendem.
+  "presets": ["@babel/preset-env"], //converte as features do es6 para que todos navegadores entendem.
+  
+  "plugins": ["@babel/plugin-proposal-object-rest-spread"] // realiza operacoes entre todos valores contidos em vetores ou arrays
+  
 }

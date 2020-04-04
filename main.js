@@ -10,9 +10,13 @@ console.log(soma(1, 3, 4, 5, 6, 7));
 
 // spread
 
-const arr1 = [1, 2, 3];
-const arr2 = [4, 5, 6];
+const usuario1 = {
+  nome: 'Cristiano',
+  idade: '29',
+  cargo: 'Estudante',
 
-const arr3 = [...arr1, ...arr2];
+};
 
-console.log(arr3);
+const usuario2 = {...usuario1, nome: 'Diego'}; 
+
+console.log(usuario2);
